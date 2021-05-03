@@ -36,3 +36,4 @@ All data was provided via Kaggle using the link above. The datasets and descript
   "product_category_name" root category of product, in Portuguese. 
 
 ## Exploratory Data Analysis (EDA)  
+![Recency Unscaled](https://user-images.githubusercontent.com/46107551/116838477-86380c00-ab9c-11eb-9268-39d0572e5132.png)
