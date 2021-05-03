@@ -36,7 +36,16 @@ All data was provided via Kaggle using the link above. The datasets and descript
   "product_category_name" root category of product, in Portuguese. 
 
 ## Exploratory Data Analysis (EDA)  
+### Recency
 ![Recency Unscaled](https://user-images.githubusercontent.com/46107551/116838477-86380c00-ab9c-11eb-9268-39d0572e5132.png)
+The last day of a purchase in the data was made on April 9th, 2016. This date as the 0th date and all other purchase dates were given a numeric recency based on many days behind the 0th date they were made. For example a purchase made on April 1st, 2016 had a numeric recency of 8 (i.e 8 days in the past) and a purchase made on April 9th, 2015 had a numeric recency of 365 (i.e. 365 days in the past).   
+ 
+The data table below shows that most shoppers in this dataset have not revisited the site in over a year since thier last purchase! Given this fact, almost all clusters or groupings will have a very long tail for recency. 
+| Min | Q2  | Median  |Mean | Q3  | Max |
+| --- |:---:| ---:|:---:| ---:|---:|
+| 0   | 372 | 501|482.2| 607|773|
+
+
 ![Frequency Unscaled](https://user-images.githubusercontent.com/46107551/116838518-a7006180-ab9c-11eb-9970-63c892ac3b1d.png)
 ![Payment Unscaled](https://user-images.githubusercontent.com/46107551/116838528-ad8ed900-ab9c-11eb-802f-2caf57a043b2.png)
 
