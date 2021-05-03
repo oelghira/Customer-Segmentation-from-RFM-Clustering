@@ -35,3 +35,4 @@ All data was provided via Kaggle using the link above. The datasets and descript
   "product_id" unique product identifier.                 
   "product_category_name" root category of product, in Portuguese. 
 
+## Exploratory Data Analysis (EDA)  
