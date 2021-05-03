@@ -1,8 +1,8 @@
 # Recency-Frequency-Monetary-Clustering-of-Online-Customers
-I describe the methods used to cluster customers of a Brazilian online retailer by customers recency, frequency, and monetary value of purchases
+I describe the methods used to cluster customers of a Brazilian online retailer by their recency, frequency, and monetary value of purchases
 
 ## Introduction
-In today's world of online retail, it is critical to a businesses survival to know who their customers are and how those customers behave. Today's consumers develop a relationship with the brands and retailers they choose to do business with. In order for that relationship to not end in a break up, retailers must provide a much more personal touch with targeted and personalized communication that speaks to the individual needs of each customer. The problem with a personalized approach is that online retailers can have such a wide range of consumers as opposed to a brick in mortar store in a fixed location. Creating something personalized for each individual is a nearly impossible task, but the good news is that we can gain an indepth understanding of the customer base by clustering customers with similar behavior! In this example, I will show how clustering to achieve a better targeted marketing approach can be done using customers' recency of last purchase, how frequent they have shopped, and how much they have spent with a Brazilian Amazon type of online retailer.  
+In today's world of online retail, it is critical to a business's survival to know who their customers are and how those customers behave. Today's consumers develop a relationship with the brands and retailers they choose to patronize. In order for that relationship to not end in a break up, retailers must provide a much more personal touch with targeted and personalized communication that speaks to the individual needs of each customer. The problem with a personalized approach is that online retailers can have such a wide range of consumers as opposed to a brick in mortar store in a fixed location. Creating something personalized for each individual is a nearly impossible task, but the good news is that we can gain an indepth understanding of the customer base by clustering customers with similar behavior! In this example, I will show how clustering to achieve a better targeted marketing approach can be done using customers' recency of last purchase, how frequent they have shopped, and how much they have spent with a Brazilian Amazon type of online retailer.  
 
 ## Data  
 https://www.kaggle.com/olistbr/brazilian-ecommerce
@@ -47,5 +47,13 @@ The data table below shows that most shoppers in this dataset have not revisited
 
 
 ![Frequency Unscaled](https://user-images.githubusercontent.com/46107551/116838518-a7006180-ab9c-11eb-9970-63c892ac3b1d.png)
+An overwhelming 96% of customers only shopped with this online retailer only once! Given this fact there will not be much variation when it comes to clustering customers based on recency. 
+
+The data below shows the summary statistics of the frequency of purchases by the customers in the dataset. 
+| Min | Q2  | Median  |Mean | Q3  | Max |
+| --- |:---:| ---:|:---:| ---:|---:|
+| 1   | 1 | 1|1.035| 1|17|
+
+
 ![Payment Unscaled](https://user-images.githubusercontent.com/46107551/116838528-ad8ed900-ab9c-11eb-802f-2caf57a043b2.png)
 
