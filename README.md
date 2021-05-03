@@ -37,3 +37,6 @@ All data was provided via Kaggle using the link above. The datasets and descript
 
 ## Exploratory Data Analysis (EDA)  
 ![Recency Unscaled](https://user-images.githubusercontent.com/46107551/116838477-86380c00-ab9c-11eb-9268-39d0572e5132.png)
+![Frequency Unscaled](https://user-images.githubusercontent.com/46107551/116838518-a7006180-ab9c-11eb-9970-63c892ac3b1d.png)
+![Payment Unscaled](https://user-images.githubusercontent.com/46107551/116838528-ad8ed900-ab9c-11eb-802f-2caf57a043b2.png)
+
