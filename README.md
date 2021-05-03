@@ -56,4 +56,13 @@ The data below shows the summary statistics of the frequency of purchases by the
 
 
 ![Payment Unscaled](https://user-images.githubusercontent.com/46107551/116838528-ad8ed900-ab9c-11eb-802f-2caf57a043b2.png)
+As with frequency, payment (pymt) is heavily skewed to the right with a long tail from under $200 reaching just under $14K. 
 
+The data table below shows the summary statistics and that 75% of all customers in the dataset spent less than $200 with the retailer. 
+| Min | Q2  | Median  |Mean | Q3  | Max |
+| --- |:---:| ---:|:---:| ---:|---:|
+| $9.59   | $63.13 | $108| $166.6| $183.53| $13,644.08|
+
+Given the amount of variation in frequency and monetary value (pymt) of customers, clustering will have to take into consideration questions of practicality. It could very easily be the case that more clusters makes sense from a K-means perspective, but those additional clusters could be the same as "splitting hairs" in terms of what is practical. Knowing what we know, when it comes to clustering one has to ask themselves, "Does it really make sense to treat these customers differently?"  
+
+## K-means Clustering
