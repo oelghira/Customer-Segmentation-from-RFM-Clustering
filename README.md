@@ -66,4 +66,7 @@ The data table below shows the summary statistics and that 75% of all customers 
 Given the amount of variation in frequency and monetary value (pymt) of customers, clustering will have to take into consideration questions of practicality. It could very easily be the case that more clusters makes sense from a K-means perspective, but those additional clusters could be the same as "splitting hairs" in terms of what is practical. Knowing what we know, when it comes to clustering one has to ask themselves, "Does it really make sense to treat these customers differently?"  
 
 ## K-means Clustering
-Before diving into the K-means clustering algorithm. Each of the 3 variables (recency, frequency, payment) were scaled to put each variable into a similar context. Each variable was normalized using min-max scaling which results in each variable represented on a scaled from 0 to 1. In min-max scaling the individual observation was transformed by the following formula:
+Before diving into the K-means clustering algorithm. Each of the 3 variables (recency, frequency, payment) were scaled to put each variable into a similar context. Each variable was normalized using min-max scaling which results in each variable represented on a scaled from 0 to 1. In min-max scaling the individual observation was transformed by the following formula:  
+![min-max](https://latex.codecogs.com/gif.latex?x%27%20%3D%20%5Cfrac%7Bx%20-%20min%28x%29%7D%7Bmax%28x%29-min%28x%29%7D)
+
+After normalizing each variable, we begin to implement the K-means alogorithm....
