@@ -81,3 +81,6 @@ The reoccuring theme here is that the optimal number of clusters from our scree 
 
 **Monetary**
 ![Payment Git](https://user-images.githubusercontent.com/46107551/116965387-a68ac800-ac7b-11eb-916f-f3c00fbc12b6.png)
+The monetary value of customers is where determing the optimal number of clusters gets interesting. From our EDA, we know the spread of payment amount is very wide ranging from less than $10 to almost $14K. We also know that most customers are not high spenders given the frequency plot with most of its mass closer to 0 than the tail at the right (see EDA section). Too few clusters can treat a majority of customers as one segment and assumes there is not much variability in those lower amounts. On the basis of what can best be applied to a targeted marketing campaign, I lean towards 4 clusters as the optimal number. Using 4 clusters separates the majority of shoppers into distinct categories of low spenders, moderate spenders, high spenders, and the highest spenders that could be purchasing not only for themselves but businesses and entire families. 
+
+
