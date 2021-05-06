@@ -83,4 +83,17 @@ The reoccuring theme here is that the optimal number of clusters from our scree 
 ![Payment Git](https://user-images.githubusercontent.com/46107551/116965387-a68ac800-ac7b-11eb-916f-f3c00fbc12b6.png)
 The monetary value of customers is where determing the optimal number of clusters gets interesting. From our EDA, we know the spread of payment amount is very wide ranging from less than $10 to almost $14K. We also know that most customers are not high spenders given the frequency plot with most of its mass closer to 0 than the tail at the right (see EDA section). Too few clusters can treat a majority of customers as one segment and assumes there is not much variability in those lower amounts. On the basis of what can best be applied to a targeted marketing campaign, I lean towards 4 clusters as the optimal number. Using 4 clusters separates the majority of shoppers into distinct categories of low spenders, moderate spenders, high spenders, and the highest spenders that could be purchasing not only for themselves but businesses and entire families. 
 
+## From Clusters to Targeted Marketing Segments
+The next steps are to add up the cluster "scores" from our previous excercise to get one final score made up of components from recency, frequency, and monetary value of purchases. In order to keep things consistent the highest value in each cluster was the highest number of clusters. Thus the highest spending customers were in cluster 4 for monetary value and the most frequent shoppers were in cluster 3 for frequency. For recency the scale was reversed in that the most recent shoppers were in cluster 3 and the customers who shopped furthest in the past are less attainable and in cluster 1. 
 
+Adding our cluster scores results in the following break down of our customer base:  
+| Min | Q2  | Median  |Mean | Q3  | Max | Min | Q2  | Median  |Mean | Q3  | Max |Median  |Mean | Q3  | Max |
+| --- |:---:| ---:|:---:| ---:|---:| --- |:---:| ---:|:---:| ---:|---:|---:|:---:| ---:|---:|
+| 1   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 2   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 3   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 4   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 5   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 6   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 7   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 8   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
