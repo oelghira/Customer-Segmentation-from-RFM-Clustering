@@ -72,4 +72,12 @@ Before diving into the K-means clustering algorithm. Each of the 3 variables (re
 After normalizing each variable, we begin to implement the K-means alogorithm for each of our variables. It is assumed here, that the reader understands the methods behind the K-means algorithm, and details of the mechanics behind it have been omitted. 
 
 **Recency**  
+![Recency Git](https://user-images.githubusercontent.com/46107551/116965362-97a41580-ac7b-11eb-9924-e06c6abb4c2f.png)
+Based on the scree plot of the scaled recency variable, it appears that the optimal number of clusters is somewhere between 2 and 4. Noticing the spread of the unscaled recency variable is between 0 (adjusted to 0.5 for the min-max calculation) and 773, it did not make sense to use only 2 clusters. Using 2 clusters would result in clusters separated at the midpoint treating customers who shopped within 387 days in one category and further out customers in another. Using 4 clusters seems to be adding clusters without creating additional value. 3 seems to be the optimal number in that the algorithm treats the most recent customers in one cluster, those haven't shopped in over a year in another, and those that made their last purchase almost 2 years ago or longer in another.
 
+**Frequency**
+![Frequency Git](https://user-images.githubusercontent.com/46107551/116965377-9ffc5080-ac7b-11eb-8190-678486eb614e.png)
+The reoccuring theme here is that the optimal number of clusters from our scree plot lies between 2 and 4. Given that we know 96% of customers made only 1 purchase, it does make some sense to use only 2 clusters. This would result in 1 cluster of 1 time shoppers and another of mutiple time shoppers. In a practical sense, this is too simple of a solution and assumes there is no other differences between customers who shopped multiple times. Using 4 clusters would treat the outlier customer who shopped 17 times as their own cluster. This would also produce no additional value to have a cluster devoted to only 1 shopper. Thus the optimal number of clusters alogorithmically and practically seems to be 3. 1 cluster for 1 time shoppers, another for those that made 2 or 3 purchases, and a final cluster for those that shopped 4 or more times. 
+
+**Monetary**
+![Payment Git](https://user-images.githubusercontent.com/46107551/116965387-a68ac800-ac7b-11eb-916f-f3c00fbc12b6.png)
