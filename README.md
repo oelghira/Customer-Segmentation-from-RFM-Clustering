@@ -69,4 +69,7 @@ Given the amount of variation in frequency and monetary value (pymt) of customer
 Before diving into the K-means clustering algorithm. Each of the 3 variables (recency, frequency, payment) were scaled to put each variable into a similar context. Each variable was normalized using min-max scaling which results in each variable represented on a scaled from 0 to 1. In min-max scaling the individual observation was transformed by the following formula:  
 ![min-max](https://latex.codecogs.com/gif.latex?x%27%20%3D%20%5Cfrac%7Bx%20-%20min%28x%29%7D%7Bmax%28x%29-min%28x%29%7D)
 
-After normalizing each variable, we begin to implement the K-means alogorithm....
+After normalizing each variable, we begin to implement the K-means alogorithm for each of our variables. It is assumed here, that the reader understands the methods behind the K-means algorithm, and details of the mechanics behind it have been omitted. 
+
+**Recency**  
+
