@@ -87,13 +87,13 @@ The monetary value of customers is where determing the optimal number of cluster
 The next steps are to add up the cluster "scores" from our previous excercise to get one final score made up of components from recency, frequency, and monetary value of purchases. In order to keep things consistent the highest value in each cluster was the highest number of clusters. Thus the highest spending customers were in cluster 4 for monetary value and the most frequent shoppers were in cluster 3 for frequency. For recency the scale was reversed in that the most recent shoppers were in cluster 3 and the customers who shopped furthest in the past are less attainable and in cluster 1. 
 
 Adding our cluster scores results in the following break down of our customer base:  
-| Min | Q2  | Median  |Mean | Q3  | Max | Min | Q2  | Median  |Mean | Q3  | Max |Median  |Mean | Q3  | Max |
+| RFM Score | Count  | Min Recency  |Median Recency | Mean Recency  | Max Recency |  | Min Frequency  | Median Frequency  |Mean Frequency | Max Frequency  |  |Min Pymt  |Median Pymt | Mean Pymt  | Max Pymt |
 | --- |:---:| ---:|:---:| ---:|---:| --- |:---:| ---:|:---:| ---:|---:|---:|:---:| ---:|---:|
-| 1   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 2   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 3   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 4   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 5   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 6   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 7   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
-| 8   | 1 | 1|1.035| 1|17|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 1   | 28,251 | 553|636| 637|773|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 2   | 34,642 | 367|492| 500|739|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 3   | 25,381 | 0.5|318| 336|724|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 4   | 6,068 | 29|315| 329|732|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 5   | 1,499 | 30|290| 294|688|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 6   | 225 | 30|265| 271|702|| 1   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 7   | 26 | 179|293| 291|494|| 2   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
+| 8   | 1 | 287|287| 287|287|| 4   | 1 | 1|1.035| 1|17| 1|1.035| 1|17|
