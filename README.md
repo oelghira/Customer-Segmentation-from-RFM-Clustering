@@ -98,7 +98,7 @@ Adding our cluster scores results in the following break down of our customer ba
 | 9   | 26 | 179|293| 291|494|| 2   | 4 |4.31 |17| |604|1,104 |1,684|7,572 |
 | 10   | 1 | 287|287| 287|287|| 4   | 4 |4 |4| |1,761|1,761 |1,761|1,761 |
 
-|RFM Cat| RFM Score | Count  | Min Recency  |Median Recency | Mean Recency  | Max Recency |  | Min Frequency  | Median Frequency  |Mean Frequency | Max Frequency  |  |Min Pymt  |Median Pymt | Mean Pymt  | Max Pymt |
+|Segment | RFM Score | Count  | Min Recency  |Median Recency | Mean Recency  | Max Recency |  | Min Frequency  | Median Frequency  |Mean Frequency | Max Frequency  |  |Min Pymt  |Median Pymt | Mean Pymt  | Max Pymt |
 | --- |:---:|:---:| ---:|:---:| ---:|---:| --- |:---:| ---:|:---:| ---:|---:|---:|:---:| ---:|---:|
 |At Risk | 3,4   | 62,893 | 367|567| 561|773|| 1   | 1 | 1 |3| |9.59|94.5|115|585 |
 |Needs Attention| 5,6   | 31,449 | 0.5|317| 335|732|| 1   | 1 |1.06 |3| |11.6|149 |230|7,275 |
